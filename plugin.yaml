@@ -1,0 +1,9 @@
+name: recon
+version: 0.1.0
+description: Recon tools for the Hermes Agent — find subdomains from public certificate records, archived pages from the Wayback Machine, and API endpoints hidden in JavaScript files. Read-only; it looks, it never touches.
+author: Nadir Rafique
+provides_tools:
+  - recon_subdomains
+  - recon_wayback_urls
+  - recon_js_endpoints
+requires_hermes: ">=0.19"
