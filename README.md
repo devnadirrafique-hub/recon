@@ -5,6 +5,12 @@ does them by hand. The agent asks for a domain or a JavaScript file; the
 plugin returns real public data. It only looks. It never touches, never logs
 in, never attacks anything.
 
+## Demo
+
+Watch the plugin in action (42 seconds):
+
+[recon-demo.mp4](demo/recon-demo.mp4)
+
 ## The tools
 
 - **recon_subdomains** — subdomains of a domain, from public certificate
@@ -60,3 +66,8 @@ Standard library only — no extra dependencies, no network beyond the three
 public sources, no credentials anywhere. The engines in `recon/` have no
 Hermes dependency and are unit-tested with mocked HTTP; the wiring in
 `__init__.py` only registers the tools with Hermes.
+
+## Credits
+
+Built by Nadir Rafique with Muse, my AI agent — it drafted the code, I tested
+and verified every line.
